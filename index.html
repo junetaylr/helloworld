@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+
+  <!-- IBM Plex Mono font -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      background-color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      display: flex;
+      gap: 4rem;
+      align-items: flex-start;
+    }
+
+    h1 {
+      font-size: 3rem;
+      transition: transform 0.3s ease, letter-spacing 0.3s ease;
+      cursor: default;
+    }
+
+    h1:hover {
+      transform: scale(1.1) translateY(-5px);
+      letter-spacing: 2px;
+    }
+
+    .description {
+      max-width: 300px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #368fcf;
+      font-weight: bold;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>hello, world</h1>
+    <div class="description">
+      <p>my name is <span class="highlight">june</span>. 
+    <p>i'm a software engineer </p>
+        <p>[front-end].</p>
+      <p>welcome to my github.</p>
+    </div>
+  </div>
+</body>
+</html>
